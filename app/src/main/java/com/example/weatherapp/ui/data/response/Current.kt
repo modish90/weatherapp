@@ -9,6 +9,6 @@ data class Current(
     val feelslike_c: Double?= null,
     val humidity: Int?= null,
     val temp_c: Double?= null,
-    val uv: Int?= null,
+    val uv: Double?= null,
     val wind_kph: Double?= null
 )
